@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "6e8fcb8f-ff95-4b51-a4da-71975bbff1a3",
+  "alias": "SectionBackgroundExampleWebPart",
+  "componentType": "WebPart",
+
+  // 设置成 true 来支持 section background color
+  "supportsThemeVariants": true,
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
+    "group": { "default": "Other" },
+    "title": { "default": "SectionBackgroundExample" },
+    "description": { "default": "SectionBackgroundExample description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "SectionBackgroundExample"
+    }
+  }]
+}
